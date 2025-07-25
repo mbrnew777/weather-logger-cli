@@ -4,7 +4,7 @@ import json
 from datetime import datetime, timedelta
 from data_handler import load_data, save_data
 
-API_KEY = '8f909a3e30832d5957e3cbe6a1148fdb'
+API_KEY = 'your_api_key_here'  # Replace with your actual API key
 BASE_URL = 'https://api.openweathermap.org/data/2.5/weather?q={}&appid={}'
 
 def fetch_and_log_weather(cities):
