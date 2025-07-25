@@ -1,0 +1,50 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode or JetBrains IDE settings
+.vscode/
+.idea/
+
+# Compiled files
+*.so
+
+# Test/report files
+*.log
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Bytecode files
+*.bak
+*.swp
+
+# Data/output files
+weather_data.json
+*.sqlite3
+*.db
+
+# Matplotlib or plot output (optional)
+*.png
+*.svg
+
+# Mac/Linux .Trash files
+.Trashes
